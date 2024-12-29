@@ -25,7 +25,7 @@ function App() {
         <input type="number" placeholder="Release Year..." />
         <button> Upload Script </button>
       </div>
-      {scripts.map((script) => (
+      {scripts.map((script: { title: string; release_year: number }) => (
         <div>
           <h2>Title: {script.title}</h2>
           <p>Release Year: {script.release_year}</p>
