@@ -1,8 +1,5 @@
 function App() {
-
-  return (
-    <div>Hello World</div>
-  )
+  return <div>Book Store</div>;
 }
 
-export default App
+export default App;
